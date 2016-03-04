@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 <body>
@@ -27,7 +26,7 @@ app.controller("myCtrl", function($scope) {
 <div ng-app="myShoppingList" ng-controller="myCtrl">
   <ul>
     <li ng-repeat="x in products">{{x}}
-          <span ng-click="removeItem($index)">&times;</span>
+            <span ng-click="removeItem($index)">&times;</span>
     </li>
   </ul>
   <input ng-model="addMe">
